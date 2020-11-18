@@ -1,0 +1,20 @@
+version: '3.0'
+services:
+  alpine:
+    image: quay.io/neothor/alpine
+    build: alpine
+  cp-kafka-rest:
+    build: cp-kafka-rest
+    image: quay.io/neothor/cp-kafka-rest
+  debian-slim:
+    build: debian-slim
+    image: quay.io/neothor/debian-slim
+  mongo:
+    build: mongocp-kafka-rest
+    image: quay.io/neothor/mongo
+  nginx:
+    build: nginx
+    image: quay.io/neothor/nginx
+  postman:
+    build: postman
+    image: quay.io/neothor/postman
