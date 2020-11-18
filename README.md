@@ -23,6 +23,8 @@
 │   └── Dockerfile
 ├── postman
 │   └── Dockerfile
+├── ruby-alpine
+│   └── Dockerfile
 └── wildfly
     ├── 14
     │   └── Dockerfile
