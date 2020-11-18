@@ -1,0 +1,1 @@
+FROM frekele/maven:3.5.3-jdk8

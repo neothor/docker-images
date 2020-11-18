@@ -1,1 +1,1 @@
-FROM mongo:4.0-xenial
+FROM mongo:4.4.0
